@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-import nn_model
-import data_processing
+from . import nn_model
+from . import data_processing
 import numpy as np
 
 def main():
