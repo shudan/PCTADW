@@ -32,10 +32,11 @@ How to use
 
    2. PCTADW-2
 
-**--output__**: *output_filename*
+**--output**: *output_filename*
    The nth line is the representation vector for node n.
 
 **Full Command List**
    The full list of command line options can be checked with "$pctadw -h"
+
 
 
