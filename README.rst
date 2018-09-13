@@ -8,6 +8,7 @@ Installation
 ---------
 python setup.py install
 
+
 How to use
 ---------
 
@@ -19,10 +20,15 @@ How to use
 
 **--input__edges**: *input_edges_filename*
    Each line is a directed edge pair, e.g.
+
    0 1
+
    1 2
+   
    3 4
+
    ...
+
 **--model_name**: *model_name*
 
    1. PCTADW-1
@@ -34,6 +40,4 @@ How to use
 
 **Full Command List**
    The full list of command line options can be checked with "$pctadw -h"
-
-
 
