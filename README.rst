@@ -19,15 +19,12 @@ How to use
    The text in nth line is the text associated with node n.
 
 **--input__edges**: *input_edges_filename*
-   Each line is a directed edge pair, e.g.
+   Each line is a directed edge pair, e.g.::
 
-   0 1
-
-   1 2
-   
-   3 4
-
-   ...
+      0 1
+      1 2
+      3 4
+      ...
 
 **--model_name**: *model_name*
 
@@ -40,4 +37,5 @@ How to use
 
 **Full Command List**
    The full list of command line options can be checked with "$pctadw -h"
+
 
