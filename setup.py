@@ -13,5 +13,9 @@ setup(
     license='GPLv3 or later',
     package_dir={'pctadw': 'pctadw'},
     include_package_data=True
+    install_requires=[
+		  "numpy >= 1.15.0",
+		  "keras >= 2.2.2",
+],
 )
 
