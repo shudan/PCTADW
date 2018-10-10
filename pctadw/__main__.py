@@ -16,7 +16,7 @@ def main():
     
     parser.add_argument('--vector_dim', default=100, type=int, help='Dimension of the representation vector. (For PCTADW-1 the resulted dimension will be 2 times vector_dim.)')
     
-    parser.add_argument('--alpha', default=0.0, type=float, help='Regulizer parameter.')
+    parser.add_argument('--alpha', default=0.0, type=float, help='Regularizer parameter.')
     
     parser.add_argument('--m', default=5, type=int, help='Maximum times each node to be fed into the neural network.')
     
@@ -32,7 +32,7 @@ def main():
     
     parser.add_argument('--split_sample_size', default=50000, type=int, help='The number of samples above which to do splitting. In training the samples will be splited into several parts to solve the problem of limited memory.')
     
-    parser.add_argument('--model_name', default='PCTADW-2', type=str, help='Batch size for training')
+    parser.add_argument('--model_name', default='PCTADW-2', type=str, help='model seleted for training')
     
     parser.add_argument('--output', required=True, help='Output representation file')
     
